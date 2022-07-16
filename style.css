@@ -2,6 +2,30 @@
     margin: 0px;
     padding: 0px;
 }
-.iframe-container {
+
+.body-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left-container {
+    width: 320px;
+    height: 860px;
+    background-color: gray;
+}
+
+.right-container {
+    width: 320px;
+    height: 860px;
+    background-color: gray;
+}
+
+.iframe-container {
+    /* text-align: center; */
 }
